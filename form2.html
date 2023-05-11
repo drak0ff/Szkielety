@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formularz</title>
+  </head>
+  <body>
+    <form action="/result2" method="POST">
+      <label>
+        Imię i nazwisko:
+        <input type="text" name="name" /> </label
+      ><br />
+      <label>
+        Znajomość języków:
+        <br />
+        <input type="checkbox" name="languages[]" value="angielski" />
+        Angielski<br />
+        <input type="checkbox" name="languages[]" value="niemiecki" />
+        Niemiecki<br />
+        <input type="checkbox" name="languages[]" value="hiszpański" />
+        Hiszpański </label
+      ><br />
+      <input type="submit" value="Wyślij" />
+    </form>
+  </body>
+</html>

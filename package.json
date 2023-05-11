@@ -1,0 +1,32 @@
+{
+  "name": "express-serwer",
+  "version": "1.0.0",
+  "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+  "main": "zad_01.js",
+  "scripts": {
+    "zad13": "nodemon zad_13.js",
+    "zad14": "nodemon zad_14.js",
+    "zad15": "nodemon zad_15.js",
+    "zad16": "nodemon zad_16.js",
+    "zad17": "nodemon zad_17.js",
+    "zad18": "nodemon zad_18.js",
+    "zad19": "nodemon zad_19.js"
+  },
+  "keywords": [
+    "express",
+    "serwer"
+  ],
+  "author": "Dmytro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-react-views": "^0.11.0",
+    "hbs": "^4.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
